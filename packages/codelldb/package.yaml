@@ -16,22 +16,22 @@ source:
   id: pkg:github/vadimcn/vscode-lldb@v1.11.1
   asset:
     - target: darwin_x64
-      file: codelldb-x64-darwin.vsix
+      file: codelldb-darwin-x64.vsix
       bin: exec:extension/adapter/codelldb
     - target: darwin_arm64
-      file: codelldb-arm64-darwin.vsix
+      file: codelldb-darwin-arm64.vsix
       bin: exec:extension/adapter/codelldb
     - target: linux_x64_gnu
-      file: codelldb-x64-linux.vsix
+      file: codelldb-linux-x64.vsix
       bin: exec:extension/adapter/codelldb
     - target: linux_arm64_gnu
-      file: codelldb-arm64-linux.vsix
+      file: codelldb-linux-arm64.vsix
       bin: exec:extension/adapter/codelldb
     - target: linux_arm_gnu
       file: codelldb-linux-armhf.vsix
       bin: exec:extension/adapter/codelldb
     - target: win_x64
-      file: codelldb-x64-windows.vsix
+      file: codelldb-windows-x64.vsix
       bin: extension/adapter/codelldb.exe
 
 bin:
